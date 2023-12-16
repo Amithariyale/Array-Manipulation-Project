@@ -53,9 +53,11 @@ function averageAge() {
 
 // 6. Age Check
 function checkAgeAbove25() {
+  let isAbove25=false;
   data.forEach((obj) => {
-    if (obj.age > 25) console.log(true);
+    if (obj.age > 25) isAbove25=true;
   });
+  console.log(isAbove25);
 }
 
 // 7. Unique Professions
