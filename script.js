@@ -19,7 +19,7 @@ function addData() {
     data.push(obj);
   }
   const name = prompt(`Enter Name : `);
-  const age = prompt(`Enter age : `);
+  const age = Number(prompt(`Enter age : `));
   const profession = prompt(`Enter profession : `);
   addNewData(name, age, profession);
 }
