@@ -46,7 +46,7 @@ function concatenateArray() {
 // 5. Average Age
 function averageAge() {
   let sum = 0;
-  data.forEach((obj) => (sum += obj.age));
+  data.forEach((obj) => (sum += Number(obj.age)));
   const average = Math.round(sum / data.length);
   console.log(average);
 }
